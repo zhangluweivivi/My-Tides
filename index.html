@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的潮汐 (My Tides) - 女性健康应用</title>
+    
+    <!-- 样式表 -->
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="src/styles/components.css">
+    
+    <!-- 材料图标 -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Chart.js 图表库 -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    
+    <!-- 修复脚本 - 问卷完成后跳转问题 -->
+    <script src="fix_login_redirect.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- 应用内容将通过JavaScript动态生成 -->
+    </div>
+    
+    <!-- 工具库 -->
+    <script src="src/utils/cycleCalculator.js"></script>
+    <script src="src/utils/cloudStorage.js"></script>
+    <script src="src/utils/dataVisualization.js"></script>
+    
+    <!-- 数据 -->
+    <script src="src/data/mockData.js"></script>
+    
+    <!-- 页面和组件 -->
+    <script src="src/screens/quiz.js"></script>
+    <script src="src/screens/myTides.js"></script>
+    <script src="src/screens/workout.js"></script>
+    <script src="src/screens/diet.js"></script>
+    <script src="src/screens/relaxation.js"></script>
+    <script src="src/screens/data.js"></script>
+    <script src="src/screens/login.js"></script>
+    
+    <!-- 主应用 -->
+    <script src="src/app.js"></script>
+</body>
+</html> 
